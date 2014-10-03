@@ -1,0 +1,9 @@
+[submodule "submodules/facebook-ios-sdk"]
+	path = submodules/facebook-ios-sdk
+	url = https://github.com/facebook/facebook-ios-sdk.git
+[submodule "submodules/SVProgressHUD"]
+	path = submodules/SVProgressHUD
+	url = https://github.com/samvermette/SVProgressHUD.git
+[submodule "submodules/OpenInChrome"]
+	path = submodules/OpenInChrome
+	url = https://github.com/GoogleChrome/OpenInChrome.git

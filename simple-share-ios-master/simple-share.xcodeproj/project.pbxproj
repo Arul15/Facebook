@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA256B619C1D08E00DBC610 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CA256B319C1D08E00DBC610 /* SVProgressHUD.bundle */; };
+		2CA256B719C1D08E00DBC610 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA256B519C1D08E00DBC610 /* SVProgressHUD.m */; };
+		2CA256B919C1D10700DBC610 /* FacebookSDKOverrides.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CA256B819C1D10600DBC610 /* FacebookSDKOverrides.bundle */; };
+		2CA256C119C1D28100DBC610 /* SimpleFacebookShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4711AD1576881F00428920 /* SimpleFacebookShare.m */; };
+		2CA256C619C1D3BC00DBC610 /* OpenInChromeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA256C419C1D3BC00DBC610 /* OpenInChromeController.h */; };
+		2CA256C819C1D40400DBC610 /* OpenInChromeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA256C519C1D3BC00DBC610 /* OpenInChromeController.m */; };
+		2CA256C919C1D4A700DBC610 /* OpenInChromeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA256C519C1D3BC00DBC610 /* OpenInChromeController.m */; };
+		2CA256CB19C1D4BC00DBC610 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA256CA19C1D4BC00DBC610 /* Default-568h@2x.png */; };
+		2CF64DA119C2DD7700719603 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF64DA019C2DD7700719603 /* FacebookSDK.framework */; };
+		2CF64DA219C2DD7700719603 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF64DA019C2DD7700719603 /* FacebookSDK.framework */; };
+		2CF64DA619C2DE6E00719603 /* FacebookSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2CF64DA019C2DD7700719603 /* FacebookSDK.framework */; };
+		53C6C841167BA84600481CD7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C6C840167BA84600481CD7 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		53C6C844167BA84C00481CD7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C6C843167BA84C00481CD7 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		53C6C846167BA89F00481CD7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C6C845167BA89F00481CD7 /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		53C6C848167BA8C100481CD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C6C847167BA8C100481CD7 /* QuartzCore.framework */; };
+		D604A5108A8F5F211E05797B /* SimpleGoogleChromeShare.h in Headers */ = {isa = PBXBuildFile; fileRef = D604AA6123677F6F5F382AB3 /* SimpleGoogleChromeShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D604A9A5CB6E8ACA9EB2D87A /* SimpleGoogleChromeShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D604AB467E921A163FF3D4B5 /* SimpleGoogleChromeShare.m */; };
+		FD47116E157686F300428920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD47116D157686F300428920 /* Foundation.framework */; };
+		FD4711AE1576881F00428920 /* SimpleFacebookShare.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4711AC1576881F00428920 /* SimpleFacebookShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD4711D0157769B800428920 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4711CF157769B800428920 /* UIKit.framework */; };
+		FD4711D1157769B800428920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD47116D157686F300428920 /* Foundation.framework */; };
+		FD4711D3157769B800428920 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4711D2157769B800428920 /* CoreGraphics.framework */; };
+		FD4711D9157769B800428920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD4711D7157769B800428920 /* InfoPlist.strings */; };
+		FD4711DB157769B800428920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4711DA157769B800428920 /* main.m */; };
+		FD4711DF157769B800428920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4711DE157769B800428920 /* AppDelegate.m */; };
+		FD4711E2157769B800428920 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4711E1157769B800428920 /* ViewController.m */; };
+		FD4711E5157769B800428920 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4711E3157769B800428920 /* ViewController_iPhone.xib */; };
+		FD4711E8157769B800428920 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4711E6157769B800428920 /* ViewController_iPad.xib */; };
+		FD471207157774CE00428920 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD471205157774C300428920 /* Security.framework */; };
+		FD471208157774D200428920 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD471205157774C300428920 /* Security.framework */; };
+		FD471208157774D200428922 /* SimpleTwitterShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FD471208157774D200428921 /* SimpleTwitterShare.m */; };
+		FD471208157774D200428924 /* SimpleTwitterShare.h in Headers */ = {isa = PBXBuildFile; fileRef = FD471208157774D200428923 /* SimpleTwitterShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD47123215777EE200428920 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD47122F15777ED900428920 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD47123315777EE500428920 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD47122F15777ED900428920 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD9662E6161201A0005EB4C8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9662E5161201A0005EB4C8 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD9662ED1612055D005EB4C8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9662E5161201A0005EB4C8 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDCB3E2E1578DD7D00810D66 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB3E2C1578DD7300810D66 /* MessageUI.framework */; };
+		FDCB3E2F1578DD7F00810D66 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB3E2C1578DD7300810D66 /* MessageUI.framework */; };
+		FDE86D5D1578BA6000891E8B /* SimpleMailShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE86D5D1578BA6000891E8A /* SimpleMailShare.m */; };
+		FDE86D5D1578BA6000891E8D /* SimpleMailShare.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE86D5D1578BA6000891E8C /* SimpleMailShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE86D5D1578BA6000891E8F /* ViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE86D5D1578BA6000891E8E /* ViewControllerHelper.m */; };
+		FDE86D5D1578BA6000891E91 /* ViewControllerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE86D5D1578BA6000891E90 /* ViewControllerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE86D5D1578BA6000891E93 /* SimpleSafariShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE86D5D1578BA6000891E92 /* SimpleSafariShare.m */; };
+		FDE86D5D1578BA6000891E95 /* SimpleSafariShare.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE86D5D1578BA6000891E94 /* SimpleSafariShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CF64DA419C2DE5F00719603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD471161157686F300428920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD471169157686F300428920;
+			remoteInfo = "simple-share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA256B319C1D08E00DBC610 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = submodules/SVProgressHUD/SVProgressHUD.bundle; sourceTree = SOURCE_ROOT; };
+		2CA256B419C1D08E00DBC610 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = submodules/SVProgressHUD/SVProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		2CA256B519C1D08E00DBC610 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = submodules/SVProgressHUD/SVProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		2CA256B819C1D10600DBC610 /* FacebookSDKOverrides.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKOverrides.bundle; path = "submodules/facebook-ios-sdk/FacebookSDKOverrides.bundle"; sourceTree = SOURCE_ROOT; };
+		2CA256C419C1D3BC00DBC610 /* OpenInChromeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenInChromeController.h; sourceTree = SOURCE_ROOT; };
+		2CA256C519C1D3BC00DBC610 /* OpenInChromeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenInChromeController.m; sourceTree = SOURCE_ROOT; };
+		2CA256CA19C1D4BC00DBC610 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2CF64DA019C2DD7700719603 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		53C6C840167BA84600481CD7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		53C6C843167BA84C00481CD7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		53C6C845167BA89F00481CD7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		53C6C847167BA8C100481CD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D604AA6123677F6F5F382AB3 /* SimpleGoogleChromeShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleGoogleChromeShare.h; sourceTree = "<group>"; };
+		D604AB467E921A163FF3D4B5 /* SimpleGoogleChromeShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGoogleChromeShare.m; sourceTree = "<group>"; };
+		FD47116A157686F300428920 /* libsimple-share.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsimple-share.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD47116D157686F300428920 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD471171157686F300428920 /* simple-share-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simple-share-Prefix.pch"; sourceTree = "<group>"; };
+		FD4711AC1576881F00428920 /* SimpleFacebookShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFacebookShare.h; sourceTree = "<group>"; };
+		FD4711AD1576881F00428920 /* SimpleFacebookShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFacebookShare.m; sourceTree = "<group>"; };
+		FD4711CD157769B800428920 /* simple-share-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-share-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4711CF157769B800428920 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD4711D2157769B800428920 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD4711D6157769B800428920 /* simple-share-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simple-share-demo-Info.plist"; sourceTree = "<group>"; };
+		FD4711D8157769B800428920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD4711DA157769B800428920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD4711DC157769B800428920 /* simple-share-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simple-share-demo-Prefix.pch"; sourceTree = "<group>"; };
+		FD4711DD157769B800428920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD4711DE157769B800428920 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD4711E0157769B800428920 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD4711E1157769B800428920 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD4711E4157769B800428920 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FD4711E7157769B800428920 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FD471205157774C300428920 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FD471208157774D200428921 /* SimpleTwitterShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTwitterShare.m; sourceTree = "<group>"; };
+		FD471208157774D200428923 /* SimpleTwitterShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTwitterShare.h; sourceTree = "<group>"; };
+		FD47122F15777ED900428920 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FD9662E5161201A0005EB4C8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FDCB3E2C1578DD7300810D66 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FDE86D5D1578BA6000891E8A /* SimpleMailShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMailShare.m; sourceTree = "<group>"; };
+		FDE86D5D1578BA6000891E8C /* SimpleMailShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMailShare.h; sourceTree = "<group>"; };
+		FDE86D5D1578BA6000891E8E /* ViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHelper.m; sourceTree = "<group>"; };
+		FDE86D5D1578BA6000891E90 /* ViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerHelper.h; sourceTree = "<group>"; };
+		FDE86D5D1578BA6000891E92 /* SimpleSafariShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleSafariShare.m; sourceTree = "<group>"; };
+		FDE86D5D1578BA6000891E94 /* SimpleSafariShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSafariShare.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD471167157686F300428920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9662E6161201A0005EB4C8 /* Social.framework in Frameworks */,
+				FDCB3E2E1578DD7D00810D66 /* MessageUI.framework in Frameworks */,
+				FD47123215777EE200428920 /* Twitter.framework in Frameworks */,
+				FD47116E157686F300428920 /* Foundation.framework in Frameworks */,
+				FD471207157774CE00428920 /* Security.framework in Frameworks */,
+				2CF64DA119C2DD7700719603 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4711CA157769B800428920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C6C848167BA8C100481CD7 /* QuartzCore.framework in Frameworks */,
+				53C6C846167BA89F00481CD7 /* libsqlite3.dylib in Frameworks */,
+				53C6C844167BA84C00481CD7 /* AdSupport.framework in Frameworks */,
+				53C6C841167BA84600481CD7 /* Accounts.framework in Frameworks */,
+				FD47123315777EE500428920 /* Twitter.framework in Frameworks */,
+				FD4711D0157769B800428920 /* UIKit.framework in Frameworks */,
+				FD471208157774D200428920 /* Security.framework in Frameworks */,
+				2CF64DA219C2DD7700719603 /* FacebookSDK.framework in Frameworks */,
+				FD4711D1157769B800428920 /* Foundation.framework in Frameworks */,
+				FDCB3E2F1578DD7F00810D66 /* MessageUI.framework in Frameworks */,
+				FD4711D3157769B800428920 /* CoreGraphics.framework in Frameworks */,
+				FD9662ED1612055D005EB4C8 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D604A70B08D04B87C71C0CE5 /* OpenInChrome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OpenInChrome;
+			path = "simple-share-demo/OpenInChrome";
+			sourceTree = "<group>";
+		};
+		FD47115F157686F300428920 = {
+			isa = PBXGroup;
+			children = (
+				2CA256CA19C1D4BC00DBC610 /* Default-568h@2x.png */,
+				FD47116F157686F300428920 /* simple-share */,
+				FD4711D4157769B800428920 /* simple-share-demo */,
+				FD47116C157686F300428920 /* Frameworks */,
+				FD47116B157686F300428920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD47116B157686F300428920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD47116A157686F300428920 /* libsimple-share.a */,
+				FD4711CD157769B800428920 /* simple-share-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD47116C157686F300428920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF64DA019C2DD7700719603 /* FacebookSDK.framework */,
+				D604A70B08D04B87C71C0CE5 /* OpenInChrome */,
+				53C6C847167BA8C100481CD7 /* QuartzCore.framework */,
+				53C6C845167BA89F00481CD7 /* libsqlite3.dylib */,
+				53C6C843167BA84C00481CD7 /* AdSupport.framework */,
+				53C6C840167BA84600481CD7 /* Accounts.framework */,
+				FD9662E5161201A0005EB4C8 /* Social.framework */,
+				FDCB3E2C1578DD7300810D66 /* MessageUI.framework */,
+				FD47122F15777ED900428920 /* Twitter.framework */,
+				FD471205157774C300428920 /* Security.framework */,
+				FD47116D157686F300428920 /* Foundation.framework */,
+				FD4711CF157769B800428920 /* UIKit.framework */,
+				FD4711D2157769B800428920 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD47116F157686F300428920 /* simple-share */ = {
+			isa = PBXGroup;
+			children = (
+				2CA256C419C1D3BC00DBC610 /* OpenInChromeController.h */,
+				2CA256C519C1D3BC00DBC610 /* OpenInChromeController.m */,
+				FDE86D5D1578BA6000891E94 /* SimpleSafariShare.h */,
+				FDE86D5D1578BA6000891E92 /* SimpleSafariShare.m */,
+				FDE86D5D1578BA6000891E90 /* ViewControllerHelper.h */,
+				FDE86D5D1578BA6000891E8E /* ViewControllerHelper.m */,
+				FDE86D5D1578BA6000891E8C /* SimpleMailShare.h */,
+				FDE86D5D1578BA6000891E8A /* SimpleMailShare.m */,
+				FD471208157774D200428923 /* SimpleTwitterShare.h */,
+				FD471208157774D200428921 /* SimpleTwitterShare.m */,
+				FD4711AC1576881F00428920 /* SimpleFacebookShare.h */,
+				FD4711AD1576881F00428920 /* SimpleFacebookShare.m */,
+				FD471170157686F300428920 /* Supporting Files */,
+				D604AB467E921A163FF3D4B5 /* SimpleGoogleChromeShare.m */,
+				D604AA6123677F6F5F382AB3 /* SimpleGoogleChromeShare.h */,
+			);
+			path = "simple-share";
+			sourceTree = "<group>";
+		};
+		FD471170157686F300428920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD471171157686F300428920 /* simple-share-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD4711AF1576881F00428949 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2CA256B319C1D08E00DBC610 /* SVProgressHUD.bundle */,
+				2CA256B419C1D08E00DBC610 /* SVProgressHUD.h */,
+				2CA256B519C1D08E00DBC610 /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			path = "../simple-share";
+			sourceTree = "<group>";
+		};
+		FD4711D4157769B800428920 /* simple-share-demo */ = {
+			isa = PBXGroup;
+			children = (
+				FD4711AF1576881F00428949 /* SVProgressHUD */,
+				FD4711DD157769B800428920 /* AppDelegate.h */,
+				FD4711DE157769B800428920 /* AppDelegate.m */,
+				FD4711E0157769B800428920 /* ViewController.h */,
+				FD4711E1157769B800428920 /* ViewController.m */,
+				FD4711E3157769B800428920 /* ViewController_iPhone.xib */,
+				FD4711E6157769B800428920 /* ViewController_iPad.xib */,
+				FD4711D5157769B800428920 /* Supporting Files */,
+			);
+			path = "simple-share-demo";
+			sourceTree = "<group>";
+		};
+		FD4711D5157769B800428920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CA256B819C1D10600DBC610 /* FacebookSDKOverrides.bundle */,
+				FD4711D6157769B800428920 /* simple-share-demo-Info.plist */,
+				FD4711D7157769B800428920 /* InfoPlist.strings */,
+				FD4711DA157769B800428920 /* main.m */,
+				FD4711DC157769B800428920 /* simple-share-demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD471168157686F300428920 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4711AE1576881F00428920 /* SimpleFacebookShare.h in Headers */,
+				FD471208157774D200428924 /* SimpleTwitterShare.h in Headers */,
+				FDE86D5D1578BA6000891E95 /* SimpleSafariShare.h in Headers */,
+				2CA256C619C1D3BC00DBC610 /* OpenInChromeController.h in Headers */,
+				FDE86D5D1578BA6000891E91 /* ViewControllerHelper.h in Headers */,
+				D604A5108A8F5F211E05797B /* SimpleGoogleChromeShare.h in Headers */,
+				FDE86D5D1578BA6000891E8D /* SimpleMailShare.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FD471169157686F300428920 /* simple-share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD471177157686F300428920 /* Build configuration list for PBXNativeTarget "simple-share" */;
+			buildPhases = (
+				FD471166157686F300428920 /* Sources */,
+				FD471167157686F300428920 /* Frameworks */,
+				FD471168157686F300428920 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "simple-share";
+			productName = "simple-share";
+			productReference = FD47116A157686F300428920 /* libsimple-share.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD4711CC157769B800428920 /* simple-share-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4711EB157769B800428920 /* Build configuration list for PBXNativeTarget "simple-share-demo" */;
+			buildPhases = (
+				FD4711C9157769B800428920 /* Sources */,
+				FD4711CA157769B800428920 /* Frameworks */,
+				FD4711CB157769B800428920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF64DA519C2DE5F00719603 /* PBXTargetDependency */,
+			);
+			name = "simple-share-demo";
+			productName = "simple-share-demo";
+			productReference = FD4711CD157769B800428920 /* simple-share-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD471161157686F300428920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FD471164157686F300428920 /* Build configuration list for PBXProject "simple-share" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD47115F157686F300428920;
+			productRefGroup = FD47116B157686F300428920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD471169157686F300428920 /* simple-share */,
+				FD4711CC157769B800428920 /* simple-share-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4711CB157769B800428920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF64DA619C2DE6E00719603 /* FacebookSDK.framework in Resources */,
+				FD4711D9157769B800428920 /* InfoPlist.strings in Resources */,
+				2CA256B619C1D08E00DBC610 /* SVProgressHUD.bundle in Resources */,
+				FD4711E5157769B800428920 /* ViewController_iPhone.xib in Resources */,
+				FD4711E8157769B800428920 /* ViewController_iPad.xib in Resources */,
+				2CA256B919C1D10700DBC610 /* FacebookSDKOverrides.bundle in Resources */,
+				2CA256CB19C1D4BC00DBC610 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD471166157686F300428920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD471208157774D200428922 /* SimpleTwitterShare.m in Sources */,
+				FDE86D5D1578BA6000891E8B /* SimpleMailShare.m in Sources */,
+				FDE86D5D1578BA6000891E8F /* ViewControllerHelper.m in Sources */,
+				FDE86D5D1578BA6000891E93 /* SimpleSafariShare.m in Sources */,
+				D604A9A5CB6E8ACA9EB2D87A /* SimpleGoogleChromeShare.m in Sources */,
+				2CA256C919C1D4A700DBC610 /* OpenInChromeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4711C9157769B800428920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4711DB157769B800428920 /* main.m in Sources */,
+				FD4711DF157769B800428920 /* AppDelegate.m in Sources */,
+				2CA256C819C1D40400DBC610 /* OpenInChromeController.m in Sources */,
+				2CA256C119C1D28100DBC610 /* SimpleFacebookShare.m in Sources */,
+				2CA256B719C1D08E00DBC610 /* SVProgressHUD.m in Sources */,
+				FD4711E2157769B800428920 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF64DA519C2DE5F00719603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD471169157686F300428920 /* simple-share */;
+			targetProxy = 2CF64DA419C2DE5F00719603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4711D7157769B800428920 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4711D8157769B800428920 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD4711E3157769B800428920 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4711E4157769B800428920 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FD4711E6157769B800428920 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4711E7157769B800428920 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD471175157686F300428920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD471176157686F300428920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD471178157686F300428920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/simple_share.dst;
+				FRAMEWORK_SEARCH_PATHS = "/Users/ntlbusinessapp/Desktop/FB/simple-share-ios-master";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-share/simple-share-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD471179157686F300428920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/simple_share.dst;
+				FRAMEWORK_SEARCH_PATHS = "/Users/ntlbusinessapp/Desktop/FB/simple-share-ios-master";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-share/simple-share-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD4711E9157769B800428920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "/Users/ntlbusinessapp/Desktop/FB/simple-share-ios-master";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-share-demo/simple-share-demo-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "simple-share-demo/simple-share-demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD4711EA157769B800428920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "/Users/ntlbusinessapp/Desktop/FB/simple-share-ios-master";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-share-demo/simple-share-demo-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "simple-share-demo/simple-share-demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD471164157686F300428920 /* Build configuration list for PBXProject "simple-share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD471175157686F300428920 /* Debug */,
+				FD471176157686F300428920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD471177157686F300428920 /* Build configuration list for PBXNativeTarget "simple-share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD471178157686F300428920 /* Debug */,
+				FD471179157686F300428920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4711EB157769B800428920 /* Build configuration list for PBXNativeTarget "simple-share-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4711E9157769B800428920 /* Debug */,
+				FD4711EA157769B800428920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD471161157686F300428920 /* Project object */;
+}
